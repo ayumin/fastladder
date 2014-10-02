@@ -43,9 +43,9 @@ group :production do
   gem 'unicorn'
   gem 'pg'
   gem 'rails_12factor'
+  gem 'librato-rails'
+  gem 'newrelic_rpm'
 end
-
-gem 'newrelic_rpm'
 
 gem 'haml'
 
