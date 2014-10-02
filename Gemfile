@@ -45,6 +45,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'newrelic_rpm'
+
 gem 'haml'
 
 # current release version has no `feed.description` method. this is why :git used
